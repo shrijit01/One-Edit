@@ -173,3 +173,9 @@ html,body{
 #photoform {
   display: none;
 }
+
+#footer{
+  height: 5vh;
+  width: 100vw;
+  background-color: red;
+}
