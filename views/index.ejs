@@ -1,0 +1,21 @@
+<% include ./partials/header  %>
+
+  <div id="main">
+    <div id="home">
+      <div class="nav">
+        <h2 id="webid">One Edit</h2> 
+      </div>
+      <div class="center">
+        <h3>Upload !</h3>
+        <div class="photo">
+          <h4>upload photo here..</h4>
+          <form id="photoform" action="/upload" method="post" enctype="multipart/form-data">
+            <input id="uploadbtn" name="image" type="file">
+          </form>
+          <button id="photu">browse files</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<% include ./partials/footer  %>
