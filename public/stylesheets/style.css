@@ -175,7 +175,19 @@ html,body{
 }
 
 #footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
   height: 5vh;
   width: 100vw;
-  background-color: red;
+  background-color: rgba(209, 198, 198, 0.514);
+}
+
+#footer h6{
+  /* font-family: "aprajita"; */
+  letter-spacing: 1px;
+  color: #fff;
+
 }
